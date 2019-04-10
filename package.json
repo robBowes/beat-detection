@@ -1,0 +1,41 @@
+{
+  "name": "sound-check",
+  "version": "1.0.0",
+  "description": "`npm run build` to create a production bundle",
+  "private": true,
+  "scripts": {
+    "build": "webpack --mode=production ",
+    "start": "webpack-dev-server -d",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robBowes/sound-check.git"
+  },
+  "author": "Robert Bowes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robBowes/sound-check/issues"
+  },
+  "homepage": "https://github.com/robBowes/sound-check#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "clean-webpack-plugin": "^2.0.1",
+    "css-loader": "^2.1.1",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "uglifyjs-webpack-plugin": "^2.1.2",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11"
+  },
+  "main": "webpack.config.js"
+}
